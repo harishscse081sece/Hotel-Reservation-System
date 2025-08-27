@@ -1,4 +1,4 @@
-Problem Statement
+Problem Statement:
 Managing hotel room reservations manually is time-consuming and prone to human errors. Customers often face issues such as lack of real-time room availability information, booking conflicts, and delays in confirming reservations. Similarly, hotel staff struggle to keep accurate records of bookings, cancellations, and customer details when using traditional methods like paper logs or spreadsheets.
 To solve these challenges, there is a need for an automated Hotel Reservation System that allows customers to book rooms, check availability, and cancel reservations easily. The system should also help hotel staff manage room inventory, customer details, and reservations efficiently
 
@@ -10,4 +10,22 @@ The target users of the Hotel Reservation System include hotel guests, who want 
 
 Class Diagram(UML Style):
 ![WhatsApp Image 2025-08-26 at 11 27 35_475b97a4](https://github.com/user-attachments/assets/e0a7b192-7094-4615-9bc6-4ee7d37e4298)
+
+Features:
+
+Add, update, and manage customer details
+Book and manage room reservations
+Check room availability
+Calculate reservation cost
+Organized data management with clear OOP design
+
+Tech Stack:
+Language: Java
+Paradigm: Object-Oriented Programming (OOP)
+
+OOP Concepts Used
+Encapsulation: Private fields with getters and setters
+Abstraction: Methods hide internal booking and cost logic
+Association: Relationships between Customer, Room, Reservation
+Inheritance & Polymorphism for Room types
 
